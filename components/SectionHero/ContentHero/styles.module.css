@@ -1,0 +1,31 @@
+.div__title {
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 3vw;
+    color: #2B2D42;
+    margin-bottom: 4vw;
+}
+.div__paragraph {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 1.6vw;
+    color: #2B2D42;
+    margin-bottom: 4vw;
+}
+.color__grey {
+    color: #8C99AE;
+}
+.color__red {
+    color: #8C99AE;
+}
+.div__btn {
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 1.6vw;
+    color: #EDF2F4;
+}
+.div__btn a{
+    background-color: #EF233C;
+    padding: 1vw 3vw;
+    border-radius: 30px;
+}
