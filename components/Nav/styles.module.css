@@ -1,0 +1,16 @@
+.nav {
+    background-color: #2B2D42;
+    padding: 10px 6vw;
+    position: fixed;
+    width: 100%;
+}
+.row__nav {
+    display: flex;
+    align-items: center;
+}
+.div__img{
+    width: 100px;
+}
+.div__img img{
+    width: 80%;
+}
