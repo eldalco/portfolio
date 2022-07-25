@@ -1,0 +1,12 @@
+.section__hero {
+    display: flex;
+    align-items: center;
+    padding: 9vw 10vw;
+    background-color: #EDF2F4;
+}
+.div__picture {
+    width: 50%;
+}
+.div__content {
+    width: 50%;
+}
