@@ -1,5 +1,13 @@
 .c-section {
-  padding: 50px 12.5%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 10%;
+  background-color: #EDF2F4;
+  border-bottom: 1px solid #FFFFFF;
+}
+.section__content {
+  max-width: 1440px;
+  width: 100%;
 }
 .div__title {
   margin-bottom: 50px;
