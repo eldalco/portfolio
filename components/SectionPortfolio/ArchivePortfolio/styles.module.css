@@ -1,0 +1,15 @@
+.container__archive {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+@media (max-width: 980px) {
+  .container__archive {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .container__archive {
+    grid-template-columns: 1fr;
+  }
+}
