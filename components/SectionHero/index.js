@@ -4,16 +4,16 @@ import Picture from '../Picture'
 import ContentHero from './ContentHero'
 
 const SectionHero = () => {
-    return (
-        <section className={styles["section__hero"]}>
-            <div className={styles["div__picture"]}>
-                <Picture />
-            </div>
-            <div className={styles["div__content"]}>
-                <ContentHero />
-            </div>
-        </section>
-    )
+return (
+    <section className={styles["section__hero"]}>
+        <div className={styles["div__picture"]}>
+            <Picture />
+        </div>
+        <div className={styles["div__content"]}>
+            <ContentHero />
+        </div>
+    </section>
+)
 }
 
 export default SectionHero
