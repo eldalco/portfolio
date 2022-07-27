@@ -1,11 +1,17 @@
 .container__skills {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 25%));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 40px;
   justify-content: center;
   margin: 0;
   padding: 0;
   width: 100%;
+}
+@media (max-width: 980px) {
+  .container__skills {
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
 }
 .item__skill {
   display: flex;
