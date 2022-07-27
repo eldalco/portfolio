@@ -1,0 +1,14 @@
+.container__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  padding: 30px 0;
+}
+.div__icon {
+  color:#EDF2F4;
+  cursor: pointer;
+}
+.div__icon:hover {
+  color:#FFFFFF;
+}
