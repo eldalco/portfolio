@@ -9,9 +9,7 @@ const Nav = () => {
                     <img src="./images/EA-logo1.webp" alt="" />
                 </div>
                 <div className={styles["row__nav-content"]}>
-
                 </div>
-
             </div>
         </nav>
     )
