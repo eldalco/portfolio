@@ -1,9 +1,9 @@
 .div__word h2{
   /* -webkit-text-stroke: 0.5px #2B2D42; */
-  color: #FFFFFF;
-  font-size: 6vw;
+  color: #f1f2f6;
+  font-size: 4vw;
   text-transform: uppercase;
-  font-family:'Gilroy' Arial, Helvetica, sans-serif;
+  font-family:'Oswald' Arial, Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: 0px;
 }
