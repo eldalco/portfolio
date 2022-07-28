@@ -14,7 +14,7 @@ return (
                 <ContentHero />
             </div>
         </div>
-        <div>
+        <div className={styles["div__slider"]}>
             <SliderWords />
         </div>
     </section>
