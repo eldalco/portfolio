@@ -19,14 +19,7 @@
     
   }
 }
-@media (max-width: 460px) {
-  .container__skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
+
 .item__skill {
   display: flex;
   align-items: center;
@@ -39,7 +32,7 @@
   .item__skill {
     flex-direction: column;
     gap: 10px;
-    border-bottom: 2px solid #005F73;
+    border-bottom: 2px solid #2B2D42;
     padding-bottom: 10px;
     width: 100%;
   }
