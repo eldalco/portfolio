@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import styles from "./styles.module.css"
+import ListContact from "../SectionContact/ListContact"
 
 const Nav = () => {
     const [colorNav, setColorNav] = useState(true);
@@ -23,6 +24,7 @@ const Nav = () => {
                     <img src="./images/EA-logo1.webp" alt="" />
                 </div>
                 <div className={styles["row__nav-content"]}>
+                    <ListContact />
                 </div>
             </div>
         </nav>
