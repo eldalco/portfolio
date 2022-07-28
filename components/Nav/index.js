@@ -20,7 +20,7 @@ const Nav = () => {
         <nav className={colorNav ? `${styles["nav"]} ${styles["nav__fixed"]}`:  `${styles["nav"]} ${styles["nav__active"]}`}>
             <div className={styles["row__nav"]}>
                 <div className={styles["div__img"]}>
-                    <img src="./images/EA.webp" alt="" />
+                    <img src="./images/EA-logo1.webp" alt="" />
                 </div>
                 <div className={styles["row__nav-content"]}>
                 </div>
