@@ -1,15 +1,19 @@
 .container__archive {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  gap: 50px;
+  padding-left: 0;
 }
-@media (max-width: 980px) {
+@media (max-width: 1200px) {
   .container__archive {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .container__archive {
     grid-template-columns: 1fr;
   }
+}
+.container__archive li {
+  list-style: none;
 }
