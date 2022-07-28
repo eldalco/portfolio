@@ -1,13 +1,22 @@
-.div__title {
-    font-family: Gilroy;
-    font-weight: 800;
-    font-size: 50px;
+.div__title h1{
+    font-weight: 500;
+    font-size: 5.5vw;
     color: #2B2D42;
     margin-bottom: 50px;
 }
+@media (max-width: 980px) {
+    .div__title h1{
+        font-size: 60px;
+    }
+}
+@media (max-width: 350px) {
+    .div__title h1{
+        font-size: 50px;
+    }
+}
 .div__paragraph {
     font-family: Gilroy;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 26px;
     color: #2B2D42;
     margin-bottom: 80px;
@@ -23,18 +32,24 @@
     align-items: center;
     column-gap: 30px;
 }
-@media (max-width: 980px) {
+
+@media (max-width: 620px) {
     .div__line-btn {
-      display: block;
+      flex-direction: column;
+      justify-content: center;
+      row-gap: 30px;
     }
 }
 
-.div__btn button {
+.div__btn a {
     font-family: Gilroy;
     font-weight: 600;
     font-size: 26px;
+    text-align: center;
+    line-height: 60px;
     color: #EDF2F4;
-    border: 1px solid #005f73; 
+    border: 1px solid #005f73;
+    display: block;
     width: 220px;
     height: 65px;
     transition: all 0.3s;
@@ -43,18 +58,17 @@
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
-.div__btn button:hover {
+.div__btn a:hover {
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
 }
-.div__btn-contact button{
+.div__btn-contact a{
     background-color: #005f73;
-      
 }
-.div__btn-cv button{
+.div__btn-cv a{
     color: #005f73; ;
     background-color: transparent;
 }

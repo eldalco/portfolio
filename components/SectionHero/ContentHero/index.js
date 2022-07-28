@@ -13,10 +13,10 @@ const ContentHero = () => {
             </div>
             <div className={styles["div__line-btn"]}>
                 <div className={`${styles["div__btn-contact"]} ${styles["div__btn"]}`}>
-                    <button href="#">Contáctame</button>
+                    <a href="#">Contáctame</a>
                 </div>
                 <div className={`${styles["div__btn-cv"]} ${styles["div__btn"]}`}>
-                    <button href="#">Descargar CV</button>
+                    <a href="#">Descargar CV</a>
                 </div>
             </div>
         </div>
