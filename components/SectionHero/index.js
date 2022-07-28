@@ -12,11 +12,14 @@ return (
             </div>
             <div className={styles["div__content"]}>
                 <ContentHero />
-            </div>
+            </div>  
+            <div className={styles["div__slider"]}>
+                <div className={styles["div__slider--item"]}>
+                    <SliderWords />
+                </div>
+            </div>             
         </div>
-        <div className={styles["div__slider"]}>
-            <SliderWords />
-        </div>
+             
     </section>
 )
 }
