@@ -4,21 +4,21 @@ import skills from "../../../content/skills"
 const GridSkills = () => {
   
   return (
-    <div className={styles["container__skills"]}>
+    <ul className={styles["container__skills"]}>
       {
         skills.map((skill)=>
-          <div className={styles["item__skill"]}>
+          <li key={skill.id} className={styles["item__skill"]}>
             <div className={styles["div__image"]}>
               <img src={skill.logo} />
             </div>
             <div className={styles["div__name"]}>
               <span>{skill.name}</span>
             </div>
-          </div>
+          </li>
         )
       }
       
-    </div>
+    </ul>
   )
 }
 
