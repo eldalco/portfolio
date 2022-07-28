@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #F4F9FC;
-  border-bottom: 0px solid #e0f1eb; 
-  padding: 150px 10%;
+  background-color: #01161e;
+  border-bottom: 1px solid #3f2202; 
+  padding: 0px 10%;
   position: relative;
 }
 @media (max-width: 980px) {
@@ -23,14 +23,17 @@
 .div__hero {
   width: 100%;
   max-width: 1440px;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 30px;
+  position: relative;
 }
 @media (max-width: 980px) {
   .div__hero {
     display: block;
+    min-height: auto;
   }
 }
 .div__picture {
@@ -54,3 +57,16 @@
   bottom: 0;
   right: 0;
 }
+@media (max-width: 980px) {
+  .div__slider {
+    bottom: -150px;
+    right: 0;
+  }
+}
+@media (max-width: 620px) {
+  .div__slider {
+    bottom: -80px;
+    right: 0;
+  }
+}
+
