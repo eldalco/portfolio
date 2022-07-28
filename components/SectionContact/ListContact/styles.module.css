@@ -15,7 +15,7 @@
   -o-transition: all .2s;
 }
 .div__icon:hover {
-  color:#FFFFFF;
+  color:#FF8600;
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
