@@ -1,7 +1,7 @@
 .div__title h1{
     font-weight: 500;
     font-size: 5.5vw;
-    color: #2B2D42;
+    color: #ff8600;
     margin-bottom: 50px;
 }
 @media (max-width: 980px) {
@@ -18,7 +18,7 @@
     font-family: Gilroy;
     font-weight: 400;
     font-size: 26px;
-    color: #2B2D42;
+    color: #f1f2f6;
     margin-bottom: 80px;
 }
 .color__grey {
@@ -47,8 +47,8 @@
     font-size: 26px;
     text-align: center;
     line-height: 60px;
-    color: #EDF2F4;
-    border: 1px solid #005f73;
+    color: #01161E;
+    border: 1px solid #FF8600;
     display: block;
     width: 220px;
     height: 65px;
@@ -66,9 +66,9 @@
     -o-border-radius: 30px;
 }
 .div__btn-contact a{
-    background-color: #005f73;
+    background-color: #FF8600;
 }
 .div__btn-cv a{
-    color: #005f73; ;
+    color: #FF8600;
     background-color: transparent;
 }
