@@ -82,12 +82,13 @@ p {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  color: #2B2D42;
+  color: #FF8600;
 }
 span {
   font-family:'Gilroy' Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
+  color: #f1f2f6;
 }
 
 * {
