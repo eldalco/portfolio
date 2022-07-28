@@ -1,29 +1,51 @@
 import styles from "./styles.module.css"
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
+import Link from "next/link";
+import { BiLink } from "react-icons/bi";
+import { BsGithub } from "react-icons/bs";
+import { FaRegWindowClose } from "react-icons/fa";
 
 const CardPortfolio = ({data}) => {
   const [value, setValue] = useState(false)
   const ref = useRef("");
 
-  const {id, title, description, tech, image} = data
-  const hover = ()=> {
-    setValue(true)
+  const {title, description, tech, image, access, github, url} = data
+  const handlerInfo = ()=> {
+    setValue(!value)
   }
-  const noHover = ()=> {
-    setValue(false)
-  }
+  
   return (
-    <div key={id} className={styles["container__card"]} ref={ref} onMouseEnter={hover} onMouseLeave={noHover}>
+    <div className={styles["container__card"]} >
       <div className={styles["card__image"]}>
         <img src={image} alt="" />
       </div>
       <div className={styles["card__content"]}>
         <h3>{title}</h3>
         <p>{tech}</p>
+        <div className={styles["content__access"]}>
+          <div className={styles["content__access--icons"]}>
+            {access && <>
+              <Link href={url}>
+                <BiLink size={30} title="Ver página"/>
+              </Link>
+              <Link href={github}>
+                <BsGithub size={30} title="Ver código"/>
+              </Link>
+            </>
+            }   
+          </div>
+          <div className={styles["content__access--btn"]} ref={ref} onClick={handlerInfo} >
+            <button>Ver más</button>
+          </div>
+        </div>
       </div>
+
       <div className={styles["info__card"]} style={value ? {top: "0%"}: {top:"100%"}}>
-        <div>
+        <div className={styles["info__card--description"]}>
           <p>{description}</p>
+          <div className={styles["info__card--close"]} onClick={handlerInfo}>
+            <FaRegWindowClose size={30}/>
+          </div>
         </div>
       </div>
     </div>
