@@ -5,13 +5,15 @@ import styles from "./styles.module.css";
 
 const ArchivePortfolio = () => {
   return (
-    <div className={styles["container__archive"]}>
+    <ul className={styles["container__archive"]}>
       {
-        practicePortfolio.map((item)=> (
-          <CardPortfolio data={item}/>
+        practicePortfolio.map((item, index)=> (
+          <li key={item.id}>          
+            <CardPortfolio data={item}  />
+          </li>
         ))
       }
-    </div>
+    </ul>
   )
 }
 
