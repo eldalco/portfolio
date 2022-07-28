@@ -1,38 +1,57 @@
 const practicePortfolio = [
   {
     id: 0,
-    title: "página web Innteria",
-    description: "Página informativa",
-    tech: "React JS, Next JS, CSS",
-    image: "/images/portfolio/p-img.webp"
+    title: "Plataforma Audiocare",
+    description: "Plataforma privada para registro y gestión de datos de pacientes para cada proceso de consulta. Autorización de peticiones por token, cargue de archivos en lote, autenticación por rol, descarga de historias en archivo .pdf, uso de React hooks y custom hooks, diseño a medida.",
+    tech: "React JS, Bootstrap, Axios, Styled Components",
+    image: "/images/portfolio/audiocare-platform.webp",
+    access: false
   },
   {
     id: 1,
-    title: "página web Innteria",
-    description: "Página informativa",
-    tech: "React JS, Next JS, CSS",
-    image: "/images/portfolio/p-img.webp"
+    title: "Back office Morph",
+    description: "Aplicación privada para administración de datos de proyecto inmobiliario Morph Granada. Autenticación de usuario, autorización de peticiones por token (JWT), consumo de Rest API, actualización de datos con cargue de archivo .xlsx, descarga de reportes.",
+    tech: "Next JS, Material UI, Axios",
+    image: "/images/portfolio/morph_backoffice.webp",
+    access: false
   },
   {
     id: 2,
-    title: "página web Innteria",
-    description: "Página informativa",
-    tech: "React JS, Next JS, CSS",
-    image: "/images/portfolio/p-img.webp"
+    title: "CRM Eyetrade",
+    description: "CRM privado. Permite gestión por tracking de leads obtenidos de diversas fuentes. Asignación de perfil comercial para seguimiento, monitorización de cifras y estados. Acceso basado en roles, autorización por token.",
+    tech: "React JS, Bootstrap, Material Design, Chart.js",
+    image: "/images/portfolio/eyetrade-crm.webp",
+    access: false
   },
   {
     id: 3,
-    title: "página web Innteria",
-    description: "Página informativa",
-    tech: "React JS, Next JS, CSS",
-    image: "/images/portfolio/p-img.webp"
+    title: "Página web Innteria",
+    description: "Página informativa de Innteria. Diseño y funcionalidad a medida, sliders automáticos, diseño responsivo, React Hooks.",
+    tech: "Next JS, CSS",
+    image: "/images/portfolio/innteria-page.webp",
+    access: true,
+    github: "#",
+    url: "#"
   },
   {
     id: 4,
-    title: "página web Innteria",
-    description: "Página informativa",
-    tech: "React JS, Next JS, CSS",
-    image: "/images/portfolio/p-img.webp"
+    title: "App de filtros para API",
+    description: "Proyecto práctico. Consumo de API, custom hooks para tratamiento de datos. Filtros, paginado, tipado fuerte, grid layout.",
+    tech: "React JS, Typescript, CSS, Axios, Custom hooks",
+    image: "/images/portfolio/innteria-page.webp",
+    access: true,
+    github: "#",
+    url: "#"
+  },
+  {
+    id: 5,
+    title: "Portafolio",
+    description: "Página web informativa personal. Diseño a medida, grid layout, flexbox, diseño responsivo.",
+    tech: "Next JS, CSS, React hooks",
+    image: "/images/portfolio/innteria-page.webp",
+    access: true,
+    github: "#",
+    url: "#"
   },
 ]
 export default practicePortfolio;
