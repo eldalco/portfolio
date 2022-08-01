@@ -51,8 +51,8 @@ const skills =[
   },
   {
     id: 10,
-    name: "Postman",
-    logo: "/images/postman-logo.webp"
+    name: "MySQL",
+    logo: "/images/logo-mysql.webp"
   },
   {
     id: 11,
