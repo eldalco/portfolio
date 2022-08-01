@@ -6,7 +6,7 @@ const SectionSkills = () => {
     <section className={styles["c-section"]}>
       <div className={styles["section__content"]}>
         <div className={styles["div__title"]}>
-          <h2>Skills</h2>
+          <h2>Habilidades</h2>
         </div>
         <GridSkills />
       </div>
