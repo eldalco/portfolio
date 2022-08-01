@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import SectionHero from '../components/SectionHero'
+import SectionEducation from "../components/SectionEducation"
 import SectionSkills from '../components/SectionSkills'
 import SectionPortfolio from '../components/SectionPortfolio'
 import SectionContact from '../components/SectionContact'
@@ -10,6 +11,7 @@ export default function Home() {
     <div>
       <Nav />
       <SectionHero />
+      <SectionEducation />
       <SectionSkills />
       <SectionPortfolio />
       <SectionContact />
