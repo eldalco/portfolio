@@ -1,0 +1,21 @@
+.row__education {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+.column__education {
+  padding: 0 5vw;
+}
+@media (max-width: 980px) {
+  .column__education {
+    padding: 0 15vw;
+    margin-bottom: 50px;
+  }
+  .row__education {
+    display: block;
+  }
+}
+@media (max-width: 620px) {
+  .column__education {
+    padding: 0 0;    
+  }
+}
