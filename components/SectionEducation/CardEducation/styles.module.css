@@ -1,0 +1,59 @@
+.card__education {
+  display: block;
+  border: 1px solid #FF8600;
+  color: #FFFFFF;
+}
+.block__status {
+  background-color: #2B2D42;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block__status span{
+  font-size: 20px;
+  color: #FF8600;
+  text-align: center;
+}
+.block__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10vw;
+  padding: 20px 0;
+}
+@media (max-width: 980px) {
+  .content__image {
+   width: 17vw;
+  }
+}
+@media (max-width: 620px) {
+  .content__image {
+   width: 25vw;
+  }
+}
+.content__image img {
+  width: 100%;
+}
+.content__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.content__text h3 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.content__text p{
+  color: #F1F2F6;
+  font-size: 18px;
+  text-align: center;
+}
