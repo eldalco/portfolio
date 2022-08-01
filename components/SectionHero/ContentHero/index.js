@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./styles.module.css"
-
+import Link from 'next/dist/client/link'
 
 const ContentHero = () => {
     return (
@@ -13,7 +13,9 @@ const ContentHero = () => {
             </div>
             <div className={styles["div__line-btn"]}>
                 <div className={`${styles["div__btn-contact"]} ${styles["div__btn"]}`}>
-                    <a href="#">Contáctame</a>
+                    <Link href="mailto:elkincortes03@gmail.com">
+                        <a target="_blank" rel="noopener noreferrer">Contáctame</a>
+                    </Link>
                 </div>
                 <div className={`${styles["div__btn-cv"]} ${styles["div__btn"]}`}>
                     <a href="#">Descargar CV</a>

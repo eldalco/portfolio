@@ -26,10 +26,14 @@ const CardPortfolio = ({data}) => {
           <div className={styles["content__access--icons"]}>
             {access && <>
               <Link href={url}>
-                <BiLink size={30} title="Ver página"/>
+                <a target="_blank" rel="noopener noreferrer">
+                  <BiLink size={30} title="Ver página"/>
+                </a>
               </Link>
-              <Link href={github}>
-                <BsGithub size={30} title="Ver código"/>
+              <Link href={github} target="_blank" rel="noopener noreferrer">
+                <a target="_blank" rel="noopener noreferrer">
+                  <BsGithub size={30} title="Ver código"/>
+                </a>
               </Link>
             </>
             }   

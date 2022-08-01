@@ -73,6 +73,7 @@
   color: #FF8600;
   font-size: 14px;
   padding: 5px 10px;
+  cursor: pointer;
 }
 .info__card--close {
   position: absolute;
