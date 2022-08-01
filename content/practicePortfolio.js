@@ -26,32 +26,32 @@ const practicePortfolio = [
   {
     id: 3,
     title: "Página web Innteria",
-    description: "Página informativa de Innteria. Diseño y funcionalidad a medida, sliders automáticos, diseño responsivo, React Hooks.",
-    tech: "Next JS, CSS",
+    description: "Página informativa de Innteria. Diseño y funcionalidad a medida, sliders automáticos, diseño responsivo, React Hooks, framer motion.",
+    tech: "Next JS, CSS, Vercel",
     image: "/images/portfolio/innteria-page.webp",
     access: true,
-    github: "#",
-    url: "#"
+    github: "https://github.com/eldalco/innteria-page",
+    url: "https://innteria-page.vercel.app/"
   },
   {
     id: 4,
     title: "App de filtros para API",
     description: "Proyecto práctico. Consumo de API, custom hooks para tratamiento de datos. Filtros, paginado, tipado fuerte, grid layout.",
-    tech: "React JS, Typescript, CSS, Axios, Custom hooks",
+    tech: "React JS, Typescript, CSS, Axios, Custom hooks, Vercel",
     image: "/images/portfolio/innteria-page.webp",
     access: true,
-    github: "#",
-    url: "#"
+    github: "https://github.com/eldalco/react-type-axios",
+    url: "https://react-type-axios.vercel.app/"
   },
   {
     id: 5,
     title: "Portafolio",
     description: "Página web informativa personal. Diseño a medida, grid layout, flexbox, diseño responsivo.",
-    tech: "Next JS, CSS, React hooks",
+    tech: "Next JS, CSS, React hooks, Vercel",
     image: "/images/portfolio/innteria-page.webp",
     access: true,
-    github: "#",
-    url: "#"
+    github: "https://github.com/eldalco/portfolio",
+    url: "https://portfolio-henna-three-89.vercel.app/"
   },
 ]
 export default practicePortfolio;
