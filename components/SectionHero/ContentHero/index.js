@@ -23,8 +23,8 @@ const ContentHero = () => {
             </a>
           </Link>
         </div>
-        <div className={`${styles["div__btn-cv"]} ${styles["div__btn"]}`}>
-          <a href="#">Descargar CV</a>
+        <div className={`${styles["div__btn-cv"]} ${styles["div__btn"]}`}>          
+          <a href="/files/CV_Elkin_Alfonso_Cortes.pdf" download="/files/CV_Elkin_Alfonso_Cortes.pdf">Descargar CV</a>          
         </div>
       </div>
     </div>
