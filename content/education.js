@@ -13,5 +13,12 @@ const data = [
     description: "Enfoque en cursos de desarrollo",
     image: "/images/platzi-logo.webp",
   },
+  {
+    id: 2,
+    status: "En curso",
+    title: "Open English",
+    description: "Aprendizaje constante del idioma inglés",
+    image: "/images/logo-open-english.webp",
+  },
 ];
 export default data;
