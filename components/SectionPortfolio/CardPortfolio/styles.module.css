@@ -16,12 +16,16 @@
   color: #F1F2F6;
   min-height: 100px;
 }
-.card__content h3 {
+.content__text {
+  height: 60px;
+  overflow: hidden;
+}
+.content__text h3 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-.card__content p {
+.content__text p {
   font-size: 14px;
   font-weight: 500;
 }
