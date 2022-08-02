@@ -1,5 +1,5 @@
-import styles from "./styles.module.css"
-import ArchivePortfolio from "./ArchivePortfolio"
+import styles from "./styles.module.css";
+import ArchivePortfolio from "./ArchivePortfolio";
 
 const SectionPortfolio = () => {
   return (
@@ -11,7 +11,7 @@ const SectionPortfolio = () => {
         <ArchivePortfolio />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default SectionPortfolio
+export default SectionPortfolio;

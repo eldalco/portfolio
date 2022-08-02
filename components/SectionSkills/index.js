@@ -1,5 +1,5 @@
-import styles from "./styles.module.css"
-import GridSkills from './GridSkills'
+import styles from "./styles.module.css";
+import GridSkills from "./GridSkills";
 
 const SectionSkills = () => {
   return (
@@ -11,7 +11,7 @@ const SectionSkills = () => {
         <GridSkills />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default SectionSkills
+export default SectionSkills;

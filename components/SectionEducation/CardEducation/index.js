@@ -1,6 +1,6 @@
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
-const CardEducation = ({status, title, description, image}) => {
+const CardEducation = ({ status, title, description, image }) => {
   return (
     <article className={styles["card__education"]}>
       <div className={styles["block__status"]}>
@@ -16,7 +16,7 @@ const CardEducation = ({status, title, description, image}) => {
         </div>
       </div>
     </article>
-  )
-}
+  );
+};
 
-export default CardEducation
+export default CardEducation;

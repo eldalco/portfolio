@@ -1,6 +1,5 @@
-import styles from "./styles.module.css"
-import GridEducation from "./GridEducation"
-
+import styles from "./styles.module.css";
+import GridEducation from "./GridEducation";
 
 const SectionEducation = () => {
   return (
@@ -12,7 +11,7 @@ const SectionEducation = () => {
         <GridEducation />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default SectionEducation
+export default SectionEducation;
