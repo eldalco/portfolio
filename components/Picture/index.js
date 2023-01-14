@@ -6,7 +6,7 @@ const Picture = () => {
     <div className={styles["container__img"]}>
       <img
         className={styles["img__picture"]}
-        src="./images/picture.webp"
+        src="./images/img-code.webp"
         alt="Elkin Alfonso picture"
       />
     </div>
